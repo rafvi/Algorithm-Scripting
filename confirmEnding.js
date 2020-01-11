@@ -8,7 +8,7 @@ substring methods instead.
 
 function confirmEnding(str, target) {
   let lenTarget = target.length;
-  return (str.slice(str.length-lenTarget, str.length) == target)?true:false;
+  return (str.slice(str.length-lenTarget, str.length) == target) ? true : false;
 }
 
 confirmEnding("Bastian", "n");
